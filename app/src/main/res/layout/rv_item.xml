@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/updated_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="time" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cases_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="cases" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/today_case_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="today cases" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/death_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="deaths" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/today_death_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="today deaths" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/recovered_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="recovered" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/active_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="active" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/critical_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="critical" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/continent_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="continent" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
